@@ -35,6 +35,12 @@ class ChessBoard extends React.Component {
     console.log('Toggle Piece [%s, %s], objevi se neco: ', x, y, pieces[index]);
   }
 
+  componentDiDMount() {
+    console.log("square componentDiDMount ");
+  }
+  componentWillMount() {
+    console.log("square componentWillMount ");
+  }
   render() {
     let squares = [];
 
